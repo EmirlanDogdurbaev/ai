@@ -256,5 +256,56 @@ main {
 }
 .third_cards p {
   font-size: 1.2rem;
-  padding: 15px 0;
+  padding: 15px;
+}
+
+.art_sec2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.art_sec2 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+}
+.art_sec2 article h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.art_sec2 article p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.col2 {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+}
+.col2 > h2 {
+  font: 3.2rem bolder;
+  color: black;
+
+  width: 290px;
+}
+
+.first_sec2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0 0 0;
+
+  padding-top: 100px;
 }
